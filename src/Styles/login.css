@@ -1,0 +1,121 @@
+body {
+    overflow: hidden;
+    background-color: white;
+    background-image: linear-gradient(rgba(0,0,0,0.75),rgb(95, 74, 39)),url(../img/Bg.jpg);
+    background-size: cover;
+    background-position: center;
+   
+    
+  }
+
+.container {
+    position: fixed;
+    top: 25%;
+    left: 50%; 
+    transform: translate(-50%, -50%); 
+    max-width: 400px;
+    margin: 200px auto;
+    padding: 20px;
+    border-radius: 5px;
+    text-align: center;
+  }
+  
+  .container h1 {
+    font-family: Epilogue;
+    margin-bottom: 30px;
+   
+  }
+  
+  .container form {
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+  }
+  
+  .container form label {
+    font-size: 20px;
+    font-family: Epilogue;
+    text-align: left;
+    margin-bottom: 5px;
+    margin-top: 20px;
+    color: orange;
+  }
+  
+  .container form input {
+    padding: 15px;
+    margin-bottom: 5px;
+    border-radius: 12px;
+    background-color: #EBF2E8;
+    border: 1px solid #ccc;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    width: 100%;
+    
+  }
+  
+  .container form p {
+    text-align: left;
+    margin-bottom: 20px;
+    
+  }
+  
+  .container form button {
+    font-size: 15px;
+    padding: 15px 20px;
+    background-color: orange;
+    font-family: Epilogue;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+    border: none;
+    border-radius: 12px;
+    cursor: pointer;
+    width: 116%;
+    
+  }
+  
+
+ .two{
+    padding-top: 7px;
+ }
+
+ .two a{
+    text-decoration: none;
+ }
+
+ input[type="email"]::placeholder {
+    font-family: Epilogue;
+    color: black;
+    font-size: 15px;
+  }
+  
+  input[type="password"]::placeholder {
+    font-family: Epilogue;
+    color: black;
+    font-size: 15px;
+  }
+  
+  .l1{
+    margin-right: 20px;
+    font-size: 40px;
+    font-family: Epilogue;
+    color: orange;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    
+  }
+
+  .b1{
+    width: 50%;
+    height: 50%;
+    background-color: rgb(0, 0, 0); 
+    padding: 10px 100px 30px 75px;
+    border-radius: 25px;
+    align-items: center;
+    margin-top: -90px;
+  }
+
+  .prevent-select {
+    -webkit-user-select: none; 
+    -ms-user-select: none; 
+    user-select: none;
+  }
